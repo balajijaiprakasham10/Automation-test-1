@@ -1,25 +1,3 @@
-# from selenium import webdriver
-# from selenium.webdriver.chrome.service import Service as ChromeService
-
-# # Replace with your actual path if needed
-# browser = webdriver.Chrome(service=ChromeService(executable_path='D:\\chromedriver-win64\\chromedriver.exe'))
-
-# browser.get('http://www.google.com')
-# print("Chrome launched successfully!")
-# browser.quit()
-# from selenium import webdriver
-# from selenium.webdriver.firefox.service import Service as FirefoxService
-# from selenium.webdriver.firefox.options import Options
-
-# # Specify the path to the Firefox binary
-# firefox_options = Options()
-# firefox_options.binary_location = 'C:/Program Files/Mozilla Firefox/firefox.exe'  # Update this path if different
-
-# # Initialize the Firefox WebDriver with the specified options
-# browser = webdriver.Firefox(service=FirefoxService(executable_path='D:/geckodriver.exe'), options=firefox_options)
-# browser.get('http://www.google.com')
-# print("Firefox launched successfully!")
-# browser.quit()
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from datetime import datetime
